@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>查看书价</title>
+</head>
+<body>
+<form action="/bookstore/select_low/{{ abook.price }}" method="post">
+    <div>
+        定价:<input type="text" value="{{ abook.price }}" value="{{ abook.price }}">
+    </div>
+
+    <div>
+        <input type="submit" value="确认查找">
+    </div>
+</form>
+</body>
+</html>
